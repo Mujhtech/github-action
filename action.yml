@@ -1,0 +1,10 @@
+name: 'weather app'
+description: 'Weather App is an application built on vue.js which sent data to openweather and fetch related information'
+
+inputs:
+    description: 'User input their location at the frontend'
+outputs:
+       description: 'User received related information abouth their location'
+runs:
+  using: 'vue.js'
+  main: 'vue.js'
